@@ -28,11 +28,13 @@
 `git remote add origin <remote_repository_URL>` 
 - Replace `<remote_repository_URL>` with your actual remote repository URL which you can find on your GitHub repository page in "Code" button.
 
+### 8. Add default branch name using
+`git branch -M main`
+
 ### 8. Push changes to remote repository using
-`git push -u origin master`
+`git push -u origin main`
 - You might be prompted to enter your GitHub username and password or a personal access token for authentication.
 - After the first push, you can simply use `git push` for subsequent pushes.
-- Make sure to replace `master` with `main` if your default branch is named `main`.
 - That's it! You have successfully pushed your local changes to the remote GitHub repository.
 
 ## Additional Git Commands
